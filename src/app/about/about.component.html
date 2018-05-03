@@ -1,34 +1,43 @@
-
-
 <div class="about-content">
+  <div class="about-content-header">
+
+
+
+  </div>
   <div class="about-skill-left">
     <div class="content-rating">
       <span>
-        <img src="../../../assets/logo-header/angular.png" style="width:60px">
+        <img src="../../../assets/logo-header/angular.png" style="width:60px ; height: 60px;">
       </span>
       <br>
       <span>
-        <rating [(ngModel)]="angRating[1]" [max]="angRating[0]" [readonly]="angRating[2]" style="color: #FFC107;font-size: 40px;"></rating>
+        <progressbar max="100" [value]="85" type="danger">
+          <i>85%</i>
+        </progressbar>
       </span>
     </div>
 
     <div class="content-rating">
       <span>
-        <img src="../../../assets/logo-header/nodejs2.png" style="width:60px">
+        <img src="../../../assets/logo-header/nodejs2.png" style="width:60px ; height: 60px;">
       </span>
       <br>
       <span>
-        <rating [(ngModel)]="nodeRating[1]" [max]="nodeRating[0]" [readonly]="nodeRating[2]" style="color: #FFC107;font-size: 40px;"></rating>
+        <progressbar max="100" [value]="60" type="success">
+          <i>60%</i>
+        </progressbar>
       </span>
     </div>
 
     <div class="content-rating">
       <span>
-        <img src="../../../assets/logo-header/php.png" style="width:60px">
+        <img src="../../../assets/logo-header/php.png" style="width:60px ; height: 60px;">
       </span>
       <br>
       <span>
-        <rating [(ngModel)]="phpRating[1]" [max]="phpRating[0]" [readonly]="phpRating[2]" style="color: #FFC107;font-size: 40px;"></rating>
+        <progressbar max="100" [value]="100" type="dynamic">
+          <i>100%</i>
+        </progressbar>
       </span>
     </div>
 
@@ -39,7 +48,9 @@
       </span>
       <br>
       <span>
-        <rating [(ngModel)]="rjavaRating[1]" [max]="rjavaRating[0]" [readonly]="rjavaRating[2]" style="color: #FFC107;font-size: 40px;"></rating>
+        <progressbar max="100" [value]="60" type="danger">
+          <i>60%</i>
+        </progressbar>
       </span>
     </div>
 
@@ -49,15 +60,84 @@
       </span>
       <br>
       <span>
-        <rating [(ngModel)]="rjavaScriptRating[1]" [max]="rjavaScriptRating[0]" [readonly]="rjavaScriptRating[2]" style="color: #FFC107;font-size: 40px;"></rating>
+        <progressbar max="100" [value]="80" type="warning">
+          <i>80%</i>
+        </progressbar>
       </span>
     </div>
   </div>
   <div class="about-skill-rigth">
-   <span style="font-size: 90px; color:red">
-   </span>
+    <span style="font-size: 18px;"> PERSONAL PARTICULARS</span>
+    <br>
+    <span> Gender Male</span>
+    <br>
+    <span> Date of Birth 12­ September­ 1992</span>
+    <br>
+    <span> Nationality Thai</span>
+    <br>
+    <span> Marital Status Single</span>
+    <br>
+    <span> Living Location Bankok</span>
+    <br>
+    <br>
+    <span style="font-size: 18px;">
+      PHP Programing 2 year
+      <br/>
+    </span>
+    <span style="font-size: 18px;">
+      Bizpotential Co., Ltd.
+    </span>
+    <br>
+    <span>
+      Create web site the ministry office by php,html,javascript,jquery,mysql
+    </span>
+    <br/>
+    <span style="font-size: 18px;">
+      DEVELOPER 1+ year
+    </span>
+    <br/>
+    <span style="font-size: 18px;">
+      VERTICE INTERNATIONAL Co., Ltd.
+    </span>
+    <br>
+    <span>
+      Create web site and service by angular2+(typescript),php,java,nodejs,html,javascript,jquery,mssql
+    </span>
+    <br>
+    <br>
+    <span style="font-size: 18px;">
+      Skill
+    </span>
+    <br/>
+    <span>
+      angular2+(typescript),php,java,nodejs,html,javascript,jquery,mssql,mysql,css
+    </span>
+    <br>
+    <br>
+    <span style="font-size: 18px;">EXECUTIVE</span>
+    <br>
+    <span>Graduated with Bachelor degree in Information Technology (Computer science) from Sripatum University my career objective
+      is becoming a Web Developer. Do what the people do not, and I will things get better.
+    </span>
+    <br>
+    <br>
+    <span style="font-size: 18px;">EDUCATION</span>
+    <br>
+    <span>2011-2014 Sripatum University, B.Eng.(Computer science) (major: Informatic) Grade / GPA: 3.61 ( First­class honors) 
+      2005-2009 Saim Business College, Secondary Education (major: Business Computer) Grade / GPA: 3.62
+    </span>
+
+    <br>
+    <br>
+    <span style="font-size: 18px;">
+      Contact
+    </span>
+    <br/>
+    <span>
+      TEL: 086-353-6060
+      <br> E-mail: paiboon.tob@gmail.com
+    </span>
+
   </div>
-
-
 
 </div>

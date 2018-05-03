@@ -9,7 +9,7 @@ import { AboutComponent } from './about/about.component';
 import { RatingModule } from 'ngx-bootstrap/rating';
 import { AccordionModule } from 'ngx-bootstrap';
 import { environment } from '../environments/environment';
-
+import { ProgressbarModule } from 'ngx-bootstrap/progressbar';
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,6 +22,7 @@ import { environment } from '../environments/environment';
     AppRoutingModule,
     RatingModule.forRoot(),
     AccordionModule.forRoot(),
+    ProgressbarModule.forRoot(),
     FormsModule,
   ],
   providers: [],
