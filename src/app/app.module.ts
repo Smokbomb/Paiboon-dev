@@ -10,12 +10,14 @@ import { RatingModule } from 'ngx-bootstrap/rating';
 import { AccordionModule } from 'ngx-bootstrap';
 import { environment } from '../environments/environment';
 import { ProgressbarModule } from 'ngx-bootstrap/progressbar';
+import { BsDatepickerModule } from 'ngx-bootstrap';
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    AboutComponent
+    AboutComponent,
+
   ],
   imports: [
     BrowserModule,
@@ -24,6 +26,7 @@ import { ProgressbarModule } from 'ngx-bootstrap/progressbar';
     AccordionModule.forRoot(),
     ProgressbarModule.forRoot(),
     FormsModule,
+    BsDatepickerModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]

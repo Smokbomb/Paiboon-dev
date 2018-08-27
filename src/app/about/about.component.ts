@@ -15,5 +15,8 @@ export class AboutComponent implements OnInit {
 
   ngOnInit() {
   }
+  moveToLink(link){
+    window.location.href = link ; 
+  }
 
 }
